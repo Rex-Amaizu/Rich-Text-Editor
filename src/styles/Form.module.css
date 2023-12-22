@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 350px;
+  height: auto;
+  /* UI Properties */
+  background: #ffffff;
+  box-shadow: 0px 1px 4px #00000014;
+  border-radius: 3px;
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container > label {
+  font-weight: 200;
+  font-style: normal;
+  font-family: Sans;
+  color: #333333;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.pictureDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  height: 46px;
+  background: white;
+  opacity: 1;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.pictureDiv:hover {
+  background: #f7fcf8;
+}
+
+.pictureIcon {
+  margin-left: 8px;
+}
+
+.picLabelDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+}
+
+.picLabelDiv > span {
+  /* UI Properties */
+  font-weight: 600;
+  font-style: normal;
+  font-family: Sans;
+  color: #010e05;
+  opacity: 1;
+}
+
+.picLabelDiv > font {
+  font-weight: 300;
+  font-style: normal;
+  font-family: Sans;
+  letter-spacing: 0px;
+  color: #343e37;
+  opacity: 1;
+}
